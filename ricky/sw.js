@@ -1,4 +1,4 @@
-var C = "mj-ricky-624c589ea6";
+var C = "mj-ricky-a182e18076";
 var FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(C).then(function (c) { return c.addAll(FILES); })
