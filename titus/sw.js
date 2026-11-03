@@ -1,4 +1,4 @@
-var C = "mj-titus-01309d925b";
+var C = "mj-titus-76ff4e2014";
 var FILES = ["./", "./index.html", "./manifest.webmanifest", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(C).then(function (c) { return c.addAll(FILES); })
